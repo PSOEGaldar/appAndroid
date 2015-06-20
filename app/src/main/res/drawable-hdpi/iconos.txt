@@ -1,0 +1,10 @@
+iconos de app
+	drawer_psoe.png
+	drawer_shadow.9.png
+	email.png
+	facebook.png
+	ic_drawer.png
+	phone.png
+	rosa.png
+	twitter.png
+	youtube.png

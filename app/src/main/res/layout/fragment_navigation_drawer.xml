@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/feeds_background_solid"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="-70dp"
+        android:src="@drawable/rosa"
+        android:layout_alignParentStart="true" />
+
+    <ListView android:id="@+id/drawerListView" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent" android:dividerHeight="0dp"/>
+</RelativeLayout>

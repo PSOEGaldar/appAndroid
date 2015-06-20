@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="3dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/feedItemListTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textIsSelectable="false"
+            android:layout_marginLeft="@dimen/margin_left_news_feed"
+            android:layout_marginRight="@dimen/margin_right_news_feed"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp"
+            android:textColor="@android:color/black"
+            android:editable="false"
+            android:textSize="@dimen/title_feed_height" />
+        <TextView
+            android:id="@+id/feedItemListSimbol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textIsSelectable="false"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/feeds_background_solid"
+            android:layout_marginTop="@dimen/margin_top_simbol"
+            android:layout_marginLeft="@dimen/margin_left_simbol"
+            android:text="@string/simbol_mark"
+            android:editable="false"
+            android:textSize="@dimen/title_feed_height"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textIsSelectable="false"
+            android:layout_alignLeft="@+id/feedItemListTitle"
+            android:layout_below="@+id/feedItemListTitle"
+            android:text="@string/line_separator"
+            android:editable="false"
+            android:id="@+id/line_separator"
+            android:textSize="@dimen/feed_Item_List_line_separator"  />
+    </RelativeLayout>
+</LinearLayout>

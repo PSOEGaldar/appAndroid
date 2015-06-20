@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#B3B3B3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/calendar_item_day_of_week"
+            android:textSize="@dimen/calendar_item_day_of_week"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_below="@id/calendar_item_day_of_week"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/calendar_item_date"
+            android:textSize="@dimen/calendar_item_date" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_below="@id/calendar_item_date"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/calendar_item_hour"
+            android:textSize="@dimen/calendar_item_hour" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/feeds_background_solid"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="80dp"
+            android:id="@+id/calendar_item_title"
+            android:textSize="@dimen/calendar_item_title"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/calendar_item_title"
+            android:layout_marginLeft="80dp"
+            android:id="@+id/calendar_item_description"
+            android:textSize="@dimen/calendar_item_description"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/calendar_item_description"
+            android:layout_marginLeft="80dp"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/calendar_item_location"
+            android:id="@+id/calendar_item_location"/>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="false"
+        android:id="@+id/line_separator"
+        android:text="@string/calendar_line_separator"
+        android:editable="false"
+        android:layout_marginLeft="95dp"
+        android:textSize="@dimen/calendar_line_separator"  />
+</LinearLayout>

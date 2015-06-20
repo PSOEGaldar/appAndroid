@@ -1,0 +1,38 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+         https://developer.android.com/design/patterns/navigation-drawer.html -->
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <dimen name="title_feed_height">@dimen/abc_text_size_medium_material</dimen>
+    <dimen name="margin_left_news_feed">60dp</dimen>
+    <dimen name="margin_right_news_feed">50dp</dimen>
+    <dimen name="margin_left_simbol">25dp</dimen>
+    <dimen name="margin_top_simbol">20dp</dimen>
+
+    <!-- General Hierarchy dimens -->
+    <dimen name="level_1">18sp</dimen>
+    <dimen name="level_2">14sp</dimen>
+    <dimen name="level_3">10sp</dimen>
+    <dimen name="level_4">8sp</dimen>
+
+    <!-- General dimens -->
+    <dimen name="line_separator">@dimen/level_4</dimen>
+
+
+    <!-- Calendar item list layout -->
+    <dimen name="calendar_item_day_of_week">@dimen/level_2</dimen>
+    <dimen name="calendar_item_date">@dimen/level_3</dimen>
+    <dimen name="calendar_item_hour">@dimen/level_3</dimen>
+    <dimen name="calendar_item_title">@dimen/level_2</dimen>
+    <dimen name="calendar_item_description">@dimen/level_1</dimen>
+    <dimen name="calendar_item_location">@dimen/level_1</dimen>
+    <dimen name="calendar_line_separator">@dimen/line_separator</dimen>
+
+    <!-- Feeds item list layout -->
+    <dimen name="feed_Item_List_Title">@dimen/level_1</dimen>
+    <dimen name="feed_Item_List_Simbol">@dimen/level_1</dimen>
+    <dimen name="feed_Item_List_line_separator">@dimen/line_separator</dimen>
+</resources>

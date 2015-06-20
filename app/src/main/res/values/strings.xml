@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">PSOE Gáldar</string>
+
+    <string-array name="section_names">
+        <item>Noticias</item>
+        <item>Calendario</item>
+        <item>Contacto</item>
+        <item>Te escuchamos</item>
+        <item>Programa electoral</item>
+    </string-array>
+
+    <string name="no_network">No hay Red.</string>
+    <string name="no_calendar_events">No hay eventos en el calendario.</string>
+    <string name="no_new_feeds">No hay noticias.</string>
+
+    <string name="simbol_mark">■</string>
+    <string name="line_separator_conf">●  ●  ●  ●  ●  ●  ●  ●  ●  ●  ●</string>
+
+    <string name="line_separator">@string/line_separator_conf</string>
+    <string name="calendar_line_separator">@string/line_separator_conf</string>
+
+    <string name="url_feed">https://psoegaldar.wordpress.com/feed/</string>
+    <string name="url_calendar">https://www.google.com/calendar/ical/appgaldarpsoe%40gmail.com/private-3d43de4562663b408871bc62928cf3bb/basic.ics</string>
+
+    <string name="name_association">Agrupación socialista\nJacinto Medina</string>
+    <string name="association_adddress">Calle Drago, 25\nTeléfono: 928 88 18 68\nemail: socialistasdegaldar@gmail.com\nGÁLDAR</string>
+    <string name="address">Dirección:</string>
+    <string name="address_association">Drago, 25. Gáldar</string>
+    <string name="email_address">socialistasdegaldar@gmail.com</string>
+    <string name="phone_number">928881868</string>
+
+    <string name="link_facebook">Facebook</string>
+    <string name="url_facebook">https://www.facebook.com/psoegaldar</string>
+    <string name="link_twitter">Twitter</string>
+    <string name="url_twitter">https://twitter.com/psoegaldar</string>
+    <string name="link_youtube">Youtube</string>
+    <string name="url_youtube">https://www.youtube.com/user/PSOEGALDAR</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="html_prefix"><![CDATA[<html><head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+<style type="text/css">
+@font-face { font-family: "InterstateBlod"; src: url("fonts/INB____.TTF") format("truetype"); }
+@font-face { font-family: "InterstateRegular"; src: url("fonts/INR____.TTF") format("truetype"); }
+@font-face { font-family: "InterstateLight"; src: url("fonts/INL____.TTF") format("truetype"); }
+*{ -webkit-user-select: none;}
+body {margin:3em; margin-left:3.8em; margin-top:1em; margin-right:1.5em;}
+#cuadrito {float:left; margin-left:-2.1em; color:#da291c;}
+#cuadrito2 {color:#da291c;}
+h3 {color: black;font-family:"InterstateRegular";}
+h5 {color: black;font-family:"InterstateBlod";}
+img{width:100%;}
+p{font-family:"InterstateLight";}
+</style>
+</head>
+<body>]]></string>
+
+    <string name="html_sufix"><![CDATA[</body>
+</html>]]></string>
+    <string name="html_title_prefix"><![CDATA[<h3><span id="cuadrito">■</span>]]></string>
+    <string name="html_article_suffix"><![CDATA[<span id="cuadrito2">■</span>]]></string>
+    <string name="html_title_sufix"><![CDATA[</h3>]]></string>
+    <string name="html_date_preffix"><![CDATA[<h5>]]></string>
+    <string name="html_date_sufix"><![CDATA[</h5>]]></string>
+    <string name="title_activity_feed">FeedActivity</string>
+
+    <string-array name="program_items">
+        <item>intro.html:Introducción</item>
+        <item>agricultura.html:Agricultura, ganadería, apicultura y pesca</item>
+        <item>agua.html:Agua y alcantarillado</item>
+        <item>alumbrado.html:Alumbrado público</item>
+        <item>asfaltados.html:Asfaltados</item>
+        <item>biblioteca.html:Biblioteca</item>
+        <item>cementerio.html:Cementerio</item>
+        <item>comercio.html:Comercio e industria (Desarrollo local)</item>
+        <item>consumo.html:Consumo</item>
+        <item>cultura.html:Cultura</item>
+        <item>deportes.html:Deportes</item>
+        <item>educacion.html:Educación</item>
+        <item>empleo.html:Empleo</item>
+        <item>energia.html:Energía</item>
+        <item>fiestas.html:Fiestas</item>
+        <item>hacienda.html:Hacienda</item>
+        <item>igualdad.html:Igualdad</item>
+        <item>infancia.html:Infancia y adolescencia</item>
+        <item>juventud.html:Juventud</item>
+        <item>limpieza.html:Limpieza y recogida de basuras</item>
+        <item>mayor.html:Mayor</item>
+        <item>medioambiente.html:Medio ambiente</item>
+        <item>mercado.html:Mercado</item>
+        <item>mujer.html:Mujer</item>
+        <item>nuevastecnologias.html:Nuevas tecnologías</item>
+        <item>parques.html:Parques y jardines</item>
+        <item>participacion.html:Participación ciudadana</item>
+        <item>patrimonio.html:Patrimonio</item>
+        <item>patrimoniohistorico.html:Patrimonio histórico</item>
+        <item>personal.html:Personal</item>
+        <item>playas.html:Playas</item>
+        <item>proteccioncivil.html:Protección civil</item>
+        <item>relacionesinstitucionales.html:Relaciones institucionales</item>
+        <item>sanidad.html:Sanidad</item>
+        <item>seguridad.html:Seguridad</item>
+        <item>serviciospublicos.html:Servicios públicos</item>
+        <item>serviciossociales.html:Servicios sociales</item>
+        <item>solidaridad.html:Solidaridad</item>
+        <item>trafico.html:Tráfico, transportes y aparcamientos</item>
+        <item>turismo.html:Turismo</item>
+        <item>urbanismo.html:Urbanismo</item>
+        <item>viasyobras.html:Vías y obras</item>
+        <item>vivienda.html:Vivienda</item>
+        <item>voluntariado.html:Voluntariado</item>
+    </string-array>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_program">ProgramActivity</string>
+
+</resources>

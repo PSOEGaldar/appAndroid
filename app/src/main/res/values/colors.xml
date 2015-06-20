@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="feeds_background_transparent">#a0da291c</color>
+    <color name="feeds_background_solid">#da291c</color>
+    <color name="primary_color">#da291c</color>
+    <color name="primary_dark_color">#da291c</color>
+    <color name="accent_color">#da291c</color>
+</resources>
