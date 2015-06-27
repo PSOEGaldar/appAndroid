@@ -19,8 +19,8 @@
     <string name="line_separator">@string/line_separator_conf</string>
     <string name="calendar_line_separator">@string/line_separator_conf</string>
 
-    <string name="url_feed">https://psoegaldar.wordpress.com/feed/</string>
-    <string name="url_calendar">https://www.google.com/calendar/ical/appgaldarpsoe%40gmail.com/private-3d43de4562663b408871bc62928cf3bb/basic.ics</string>
+    <string name="url_feed">dirección del rss para las noticias</string>
+    <string name="url_calendar">dirección del ics para el calendario</string>
 
     <string name="name_association">Agrupación socialista\nJacinto Medina</string>
     <string name="association_adddress">Calle Drago, 25\nTeléfono: 928 88 18 68\nemail: socialistasdegaldar@gmail.com\nGÁLDAR</string>

@@ -5,6 +5,8 @@
 .DS_Store
 /build
 Thumbs.db
+recursos.zip
+*.apk
 *.TTF
 *.ttf
 *.png
